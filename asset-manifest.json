@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/paulzakharov/static/css/main.6b620752.chunk.css",
+    "main.js": "/paulzakharov/static/js/main.c4162ee7.chunk.js",
+    "main.js.map": "/paulzakharov/static/js/main.c4162ee7.chunk.js.map",
+    "runtime-main.js": "/paulzakharov/static/js/runtime-main.e68170c9.js",
+    "runtime-main.js.map": "/paulzakharov/static/js/runtime-main.e68170c9.js.map",
+    "static/js/2.beabca65.chunk.js": "/paulzakharov/static/js/2.beabca65.chunk.js",
+    "static/js/2.beabca65.chunk.js.map": "/paulzakharov/static/js/2.beabca65.chunk.js.map",
+    "index.html": "/paulzakharov/index.html",
+    "precache-manifest.ebe36f5e14d661a7701c1981e7ff106f.js": "/paulzakharov/precache-manifest.ebe36f5e14d661a7701c1981e7ff106f.js",
+    "service-worker.js": "/paulzakharov/service-worker.js",
+    "static/css/main.6b620752.chunk.css.map": "/paulzakharov/static/css/main.6b620752.chunk.css.map",
+    "static/js/2.beabca65.chunk.js.LICENSE.txt": "/paulzakharov/static/js/2.beabca65.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/paulzakharov/static/media/img.c2677485.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e68170c9.js",
+    "static/js/2.beabca65.chunk.js",
+    "static/css/main.6b620752.chunk.css",
+    "static/js/main.c4162ee7.chunk.js"
+  ]
+}
