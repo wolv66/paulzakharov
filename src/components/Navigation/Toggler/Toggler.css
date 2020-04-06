@@ -1,0 +1,61 @@
+.menu-toggler {
+    position: absolute;
+    top: 0.9rem;
+    left: 1rem;
+    width: 3rem;
+    height: 1.7rem;
+    
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 1500;
+    transition: all 650ms ease-out;
+    display: none;
+
+}
+
+
+.menu-toggler.open {
+    transform: rotate(-45deg);
+    left: 320px;
+}
+
+.bar {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(182, 181, 182));
+    width: 100%;
+    height: 4px;
+    border-radius: .8rem;
+}
+
+
+.bar.half {
+    width: 50%;
+}
+
+.bar.start {
+    transform-origin: right;
+    transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57) ;
+}
+
+.open .bar.start {
+    transform: rotate(-450deg) translateX(.8rem);
+
+} 
+
+.bar.end {
+    align-self: flex-end;
+    transform-origin: left;
+    transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57) ;
+}
+
+.open .bar.end {
+    transform: rotate(-450deg) translateX(-.8rem)
+} 
+
+@media (max-width: 768px) {
+    .menu-toggler {
+        display: flex;
+        opacity: .8;
+    
+    }
+}

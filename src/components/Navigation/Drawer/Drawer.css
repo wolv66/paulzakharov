@@ -1,0 +1,49 @@
+.drawer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 60%;
+    max-width: 260px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    background: rgba(49, 45, 45, 1);
+    transform: translateX(0px);
+    transition: all 650ms ease-out;
+    z-index: 90;
+}
+
+.drawer.opened {
+    transform: translateX(-300px);
+}
+
+.drawer ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.drawer li {
+    margin: 1rem 0;
+}
+
+.drawer a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    transition: all .2s ease-in;
+}
+
+.drawer a:hover,
+.drawer a:active {
+    color: #fa923f;
+    opacity: 0.8
+}
+
+@media (max-width: 768px) {
+    .drawer {
+        width: 50%;
+    }
+}
