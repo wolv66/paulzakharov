@@ -28,6 +28,8 @@
 }
 
 .portfolio-box1 h3 {
+        
+    letter-spacing: .7rem;
     color: white;
     text-align: center;
     margin: auto 0;
@@ -48,4 +50,23 @@
 .portfolio-box5 {
     grid-area: box5;
         
+}
+
+@media (max-width: 400px) {
+    .portfolio-grid-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 80%;
+        grid-template-rows: 100px repeat(4, 250px);
+        grid-template-areas: 'box1'
+                             'box2'
+                             'box3'
+                             'box4'
+                             'box5' ;
+    
+    }
+    .portfolio-box1 h3 {
+        letter-spacing: .3rem;
+        font-size: 1.5rem;
+    }
 }

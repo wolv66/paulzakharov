@@ -54,3 +54,25 @@
     font-size: 1.3rem;
     letter-spacing: 1.5px;
 }
+
+@media (max-width: 400px) {
+    .about-grid-box {
+        
+        width: 90%;
+        grid-template-rows: 240px 800px;
+    
+    }
+    .about-text h1 {
+        color: #fa923f;
+        opacity: 0.8;
+        font-size: 1.5rem;
+        
+        letter-spacing: 1.5px;
+    }
+    .about-text p {
+        color: white;
+        font-size: 1rem;
+        letter-spacing: 1.5px;
+    }
+
+}
