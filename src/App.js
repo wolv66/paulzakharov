@@ -89,11 +89,23 @@ class App extends Component {
       {
         softSkillId: 1,
         typeOfSkill: 'Fast Learner',
-        softSkillDescription: 'быстро учусь'
+        softSkillDescription: 'Excellent Time Management'
       },
       {
         softSkillId: 2,
-        softSkillDescription: 'адаптивность'
+        softSkillDescription: 'Natural born explorer'
+      },
+      {
+        softSkillId: 3,
+        softSkillDescription: 'Unstoppable learner'
+      },
+      {
+        softSkillId: 4,
+        softSkillDescription: 'Always hungry for new knowledge teamplayer'
+      },
+      {
+        softSkillId: 5,
+        softSkillDescription: 'Smart and curious optimizer'
       }
     ],
     experience: [
@@ -101,7 +113,8 @@ class App extends Component {
         experienceId: 0,
         company: 'Ekit',
         when: 'March 2019 - March 2020',
-        duties: ['helping', 'developing', 'drinking']
+        duties: ['Helping senior front-end developer to create web-site ', 'Learinig CSS/HTML/JS', 'Debugging', 'Creating different components using React', 
+      'trying to be very creative to bring different ideas in UX and UI']
 
       }
     ]

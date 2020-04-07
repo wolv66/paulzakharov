@@ -93,7 +93,8 @@
 .exp-box h3 {
     grid-area: exp1;
     color: #fa923f;
-    opacity: 0.8
+    opacity: 0.8;
+    font-size: 1.5rem;
 }
 
 .exp-box h4 {
