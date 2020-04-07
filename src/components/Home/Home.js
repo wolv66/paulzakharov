@@ -12,8 +12,10 @@ const Home = (props) => {
                 <div className="card-text">
                     <h1>Paul </h1>
                     <h1>Zakharov</h1>
+                   
                     <h3>FrontEnd Developer</h3>
-                </div>
+                    </div>
+                
             </div>
 
             <div className='box2'>
