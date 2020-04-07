@@ -29,7 +29,7 @@
 
 .box1 h1 {
     margin: 0 70px;    
-    letter-spacing: 1rem;
+    letter-spacing: .7rem;
     color:  #fa923f;
     font-size: 3.5rem;
     opacity: .9;
@@ -68,7 +68,8 @@
 .box3 h2 {
     color: white;
     font-size: 2rem;
-    margin: 10px;
+    margin: 10px;    
+    letter-spacing: 3px;
 }
 .exp-container{
     width: 100%;
@@ -95,6 +96,8 @@
     color: #fa923f;
     opacity: 0.8;
     font-size: 1.5rem;
+    
+    letter-spacing: 1.5px;
 }
 
 .exp-box h4 {

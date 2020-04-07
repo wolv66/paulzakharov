@@ -17,7 +17,7 @@ class App extends Component {
       {
         linkName: 'Home',
         linkId: 0,
-        link: '/'
+        link: '/paulzakharov'
       },
       {
         linkName: 'Portfolio',
@@ -168,7 +168,7 @@ class App extends Component {
 
               <Switch>
 
-                <Route path='/' exact render={() =>
+                <Route path='/paulzakharov' exact render={() =>
                   <Home
                     showHardSkillList={this.state.showHardSkillList}
                     changeSkillsList={this.changeSkillsList}
