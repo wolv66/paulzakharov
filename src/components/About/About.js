@@ -1,12 +1,13 @@
 import React from 'react'
 import './About.css'
+import Me from './ME.jpg'
 
 export default function About() {
     return (
         <div className='about-grid-box'>
             <div className='about-box1'>
                 
-                <h3>Here should be my Photo</h3>
+                {/* <img src={Me} /> */}
 
             </div>
 

@@ -114,7 +114,7 @@ class App extends Component {
         company: 'Ekit',
         when: 'March 2019 - March 2020',
         duties: ['Helping senior front-end developer to create web-site ', 'Learinig CSS/HTML/JS', 'Debugging', 'Creating different components using React', 
-      'trying to be very creative to bring different ideas in UX and UI']
+      'Trying to be very creative to bring different ideas in UX and UI']
 
       }
     ]
