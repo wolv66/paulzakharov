@@ -10,7 +10,7 @@ const Home = (props) => {
         <div className='grid-box'>
             <div className='box1'>
                 <div className="card-text">
-                    <h1>Paul </h1>
+                    <h1>P </h1>
                     <h1>Zakharov</h1>
 
                     <h3>FrontEnd Developer</h3>
