@@ -10,7 +10,7 @@ export default function Portfolio() {
             </div>
 
             <div className='portfolio-box2 boxes' >
-                <h2>Project 1</h2>
+                <h2>Project 1222</h2>
             </div>
 
             <div className='portfolio-box3 boxes'>
