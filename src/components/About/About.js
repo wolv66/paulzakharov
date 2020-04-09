@@ -4,14 +4,12 @@ import Me from './ME.jpg'
 
 export default function About() {
     return (
-        <div className='about-grid-box'>
-            <div className='about-box1'>
-                
-                {/* <img src={Me} /> */}
-
+        <div className='about-container'>
+            <div className='myPhoto'>
+                <img src={Me} alt=''/>
             </div>
 
-            <div className='about-box2'>
+            <div className='about-box'>
                 <div className='about-text'>
 
                 <h1>About Me and my WebSite</h1>

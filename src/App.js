@@ -88,23 +88,27 @@ class App extends Component {
       'My Soft Skills: ',
       {
         softSkillId: 1,
-        typeOfSkill: 'Fast Learner',
-        softSkillDescription: 'Excellent Time Management'
+        softSkillDescription: 'Extremely friendly'
+
       },
       {
         softSkillId: 2,
-        softSkillDescription: 'Natural born explorer'
+        softSkillDescription: 'Excellent Time Management'
       },
       {
         softSkillId: 3,
-        softSkillDescription: 'Unstoppable learner'
+        softSkillDescription: 'Natural born explorer'
       },
       {
         softSkillId: 4,
-        softSkillDescription: 'Always hungry for new knowledge teamplayer'
+        softSkillDescription: 'Unstoppable learner'
       },
       {
         softSkillId: 5,
+        softSkillDescription: 'Always hungry for new knowledge teamplayer'
+      },
+      {
+        softSkillId: 6,
         softSkillDescription: 'Smart and curious optimizer'
       }
     ],

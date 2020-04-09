@@ -17,7 +17,7 @@
 
 .menu-toggler.open {
     transform: rotate(-45deg);
-    left: 320px;
+    left: 300px;
 }
 
 .bar {

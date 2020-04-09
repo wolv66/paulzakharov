@@ -1,17 +1,16 @@
 import React from 'react'
+import './Contact.css'
 
 export default function Contact() {
     return (
-        <div className='about-grid-box'>
-            <div className='about-box1'>
-                
-                <h3>Here should be my Photo</h3>
-
-            </div>
-
-            <div className='about-box2'>
-
-                <h1>General Information about Me</h1>
+        <div className='contact-container'>
+            <h1>So, if you have any questions, or you want to hire me - just mail me!</h1>
+            <div className='icon-container'>
+                <a href=''><i className="contactIcon fas fa-mail-bulk"></i></a>
+                <a href="https://www.linkedin.com/in/paul-zak-29b06519a"><i className="contactIcon fab fa-linkedin"></i> </a>
+                <a href='https://github.com/wolv66'><i className="contactIcon fab fa-github-square"></i></a>
+                <a href='https://www.facebook.com/people/Paul-Zakharov/100004351425520'><i className="contactIcon fab fa-facebook-square
+                "></i></a>
 
             </div>
         </div>
