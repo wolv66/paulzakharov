@@ -10,7 +10,8 @@ export default function Portfolio() {
             </div>
 
             <div className='portfolio-box2 boxes' >
-                <h2>Project 1222</h2>
+                <h2>My Todo App</h2>
+                <a href='https://paulzakharovbc.github.io/Todo-App/'>Link</a>
             </div>
 
             <div className='portfolio-box3 boxes'>
