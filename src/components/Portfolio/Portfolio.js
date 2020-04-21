@@ -10,16 +10,16 @@ export default function Portfolio() {
             </div>
 
             <div className='portfolio-box2 boxes' >
-                <h2>My Todo App</h2>
-                <a href='https://paulzakharovbc.github.io/Todo-App/'>Link</a>
+                <h2 className='portfolio-links'><a href='https://paulzakharovbc.github.io/paulzakharov/'>This portfolio website</a></h2>
+
             </div>
 
             <div className='portfolio-box3 boxes'>
-                <h2> Project 2 </h2>
+                <h2 className='portfolio-links'><a href='https://paulzakharovbc.github.io/Todo-App/'>My Todo App</a></h2>
             </div>
 
             <div className='portfolio-box4 boxes' >
-                <h2>Project 3</h2>
+                <h2 className='portfolio-links'><a href='https://paulzakharovbc.github.io/simple-weather-app/'>Weather App</a></h2>
             </div>
 
             <div className='portfolio-box5 boxes' >

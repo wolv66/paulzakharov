@@ -22,7 +22,7 @@ const toolbar = (props) => {
                     isMenuOpen={props.isMenuOpen} />
 
 
-                <div className='toolbar_logo'> <Link to='/'> LOGO </Link></div>
+                {/* <div className='toolbar_logo'> <Link to='/'> LOGO </Link></div> */}
                 <div className='spacer'></div>  {/*Пустой контейнер который возьмет место между лого и меню */}
                 <div className='toolbar_navigation-items'>
 

@@ -160,8 +160,9 @@ class App extends Component {
     return (
       <Router>
         <div className='App'>
-          <div className='home-page'>
+          
             <div className='overlay'>
+              <div>
               <Toolbar
                 backdropClickHandler={this.backdropClickHandler}
                 links={this.state.links}
@@ -185,7 +186,7 @@ class App extends Component {
               </Switch>
 
             </div>
-          </div>
+            </div>
         </div>
       </Router>
     )

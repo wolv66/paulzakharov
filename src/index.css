@@ -14,7 +14,7 @@ code {
 
 @media (max-width: 1019px) {
   body {
-      background: url('./components/Home/img.jpg') no-repeat center top fixed;
+      background: url('./components/Home/img.jpg') no-repeat center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;

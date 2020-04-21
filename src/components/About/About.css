@@ -3,26 +3,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    padding-top: 100px;
+    padding-bottom: 160px;
 
 }
 
 .myPhoto {
     width: 230px;
     height: 230px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .myPhoto img {
     width: 100%;
-    border: 6px solid #fa933f59;
+    border: 6px solid #ff8d2f8a;
     border-radius: 50%;
 }
 
 .about-box {
     width: 70%;
     background: rgba(49, 45, 45, .6);
-    border: 3px solid #fa933f59;
+    border: 3px solid #ff8d2f8a;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -39,7 +40,7 @@
 }
 
 .about-text h1 {
-    color: #fa923f;
+    color: #ff7e15;
     opacity: 0.8;    
     letter-spacing: 1.5px;
 }

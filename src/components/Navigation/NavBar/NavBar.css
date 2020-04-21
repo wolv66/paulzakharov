@@ -1,6 +1,5 @@
 .toolbar {
     width: 100%;
-    position: fixed;
     top: 0;
     left: 0;
     height: 56px;
@@ -47,17 +46,20 @@
 }
 
 .openedLink {
-    color: #fa923f;
+    color: #ff7e15;
     opacity: 0.8
 }
 
 .menuLink:hover,
 .menuLink:active {
-    color: #fa923f;
+    color: #ff7e15;
     opacity: 0.8
 }
 
 @media (max-width: 768px) {
+    .toolbar {
+        position: fixed;
+    }
     .top-menu {
         opacity: 0;
     }

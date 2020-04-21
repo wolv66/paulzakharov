@@ -3,6 +3,7 @@
 /* ---GRID--- */
 
 .grid-box {
+    position: inherit;
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 70%;
@@ -10,15 +11,16 @@
     grid-template-areas: 'box1 box2'
                          'box3 box2' ;
     gap: 50px;
-    margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 120px;
 
 }
 
 .box1 {
     background: rgba(49, 45, 45, .6);
-    border: 3px solid #fa933f59;
+    border: 3px solid #ff8d2f8a;
     border-radius: 10px;
     grid-area: box1;
     display: flex;
@@ -34,7 +36,7 @@
 .box1 h1 {
     margin: 10px 40px;    
     letter-spacing: .7rem;
-    color:  #fa923f;
+    color:  #ff7e15;
     font-size: 3.5rem;
     opacity: .9;
 }
@@ -51,7 +53,7 @@
 
 .box2 {
     background: rgba(49, 45, 45, .6);
-    border: 3px solid #fa933f59;
+    border: 3px solid #ff8d2f8a;;
     border-radius: 10px;
     grid-area: box2;
     display: flex;
@@ -62,7 +64,7 @@
 
 .box3 {
     background: rgba(49, 45, 45, .6);
-    border: 3px solid #fa933f59;
+    border: 3px solid #ff8d2f8a;;
     border-radius: 10px;
     grid-area: box3;
     display: flex;
@@ -98,7 +100,7 @@
 
 .exp-box h3 {
     grid-area: exp1;
-    color: #fa923f;
+    color: #ff7e15;
     opacity: 0.8;
     font-size: 1.5rem;
     
@@ -107,7 +109,7 @@
 
 .exp-box h4 {
     grid-area: exp3;
-    color: #fa923f;
+    color: #ff7e15;
     opacity: 0.8
 }
 
@@ -138,7 +140,7 @@
 
 .arrowBtn:hover,
 .arrowBtn:active {
-    color: #fa923f;
+    color: #ff7e15;
     opacity: 0.8
 }
 
@@ -157,7 +159,7 @@
 }
 
 .typeOfSkill {
-    color: #fa923f;
+    color: #ff7e15;
     opacity: 0.8;
     
 }
@@ -180,7 +182,7 @@
     margin-top: 200px;
     margin-left: 100px;
     background: rgba(49, 45, 45, .6);
-    border: 3px solid #fa933f59;
+    border: 3px solid #ff8d2f8a;;
     border-radius: 10px;
 }
 
@@ -198,14 +200,14 @@
     font-size: 2rem;
     white-space: nowrap;    /* При сжимании контента не переносит ничего, остается в одной строке */
     overflow: hidden;
-    border-right: 4px solid #fa933fe5;
+    border-right: 4px solid #ff8d2f8a;;
     animation: flashing-border 0.75s step-end infinite,
     printed-text 5s steps(16);
 }
 
 @keyframes flashing-border {
     0% {
-        border-color: #fa933fe5;
+        border-color: #ff8d2f8a;;
     }
 
     50% {
@@ -213,7 +215,7 @@
     }
 
     100% {
-        border-color: #fa933fe5;
+        border-color: #ff8d2f8a;
     }
 }
 
@@ -231,16 +233,12 @@
         grid-template-rows: 300px 400px;
         grid-template-areas: 'box1 box2'
                              'box3 box2' ;
-        gap: 50px;
-        margin-top: 150px;
-        margin-left: auto;
-        margin-right: auto;
     
     }
     .box1 h1 {
         margin: 10px 30px;    
         letter-spacing: .7rem;
-        color:  #fa923f;
+        color:  #ff7e15;
         font-size: 3rem;
         opacity: .9;
     }
@@ -265,16 +263,12 @@
         grid-template-areas: 'box1'
                             'box2'
                              'box3' ;
-        gap: 50px;
-        margin-top: 150px;
-        margin-left: auto;
-        margin-right: auto;
     
     }
     .box1 h1 {
         margin: 10px 40px;    
         letter-spacing: .7rem;
-        color:  #fa923f;
+        color:  #ff7e15;
         font-size: 3.5rem;
         opacity: .9;
         margin-left: 30px;
@@ -289,17 +283,13 @@
         grid-template-areas: 'box1'
                             'box2'
                              'box3' ;
-        gap: 50px;
-        margin-top: 150px;
-        margin-left: auto;
-        margin-right: auto;
     
     }
 
     .box1 h1 {
         margin: 20px 40px;    
         letter-spacing: .7rem;
-        color:  #fa923f;
+        color:  #ff7e15;
         font-size: 2rem;
         opacity: .9;
     }
@@ -335,7 +325,7 @@
     .box1 h1 {
         margin: 20px 40px;    
         letter-spacing: .7rem;
-        color:  #fa923f;
+        color:  #ff7e15;
         font-size: 2rem;
         opacity: .9;
     }
